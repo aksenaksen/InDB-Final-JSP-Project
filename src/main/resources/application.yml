@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: indb
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/indb
+    username: root
+    password: tkfka5470
+  jpa:
+    hibernate:
+      ddl-auto: update
