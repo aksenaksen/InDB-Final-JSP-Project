@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = UsernameValidator.class)
 public @interface Username {
 
-    String message() default "아이디는 최소 1자 최대 30자 이하의 영문 또는 한글을 입력해야합니다.";
+    String message() default "이름은 최소 1자 최대 30자 이하의 영문 또는 한글을 입력해야합니다.";
 
     Class<?>[] groups() default {};
 

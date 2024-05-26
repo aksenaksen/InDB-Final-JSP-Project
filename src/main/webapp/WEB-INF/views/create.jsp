@@ -10,6 +10,11 @@
           integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/Join.css">
 </head>
+<% if (request.getAttribute("errorMessage") != null) { %>
+<script>
+    alert("<%= request.getAttribute("errorMessage") %>");
+</script>
+<% } %>
 
 <body>
 <form action="<%= request.getContextPath() %>/user/create" method="post">
