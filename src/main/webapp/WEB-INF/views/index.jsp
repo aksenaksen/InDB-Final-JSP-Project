@@ -15,7 +15,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
   <br>
-  <h1><a href="./index/mainpage.jsp" target="main"><img src="./index_image/monkey_logo.jpg" alt=""></a>MONKEY TOUR</h1>
+  <h1><a href="./index/mainpage.jsp" target="main"><img src="index_image/monkey_logo.jpg" alt=""></a>MONKEY TOUR</h1>
   <br>
   <div class="for_mobile">
     <div class="container" id="search_btn">
@@ -23,18 +23,18 @@
       <button>검색</button>
     </div>
     <div class="login_join">
-      <a href="../Sign_in_Form/Login.jsp"><button>로그인</button></a>
-      <a href="../Sign_in_Form/Join.jsp"><button>회원가입</button></a>
+      <a href="/user/login"><button>로그인</button></a>
+      <a href="/user/create"><button>회원가입</button></a>
     </div>
     <div class="container" id="linkpage_1">
       <ul>
-        <li><a href="../oversea/oversea.jsp" target="main"><b>해외여행</b></a></li>
-        <li><a href="../domestic/domestic.jsp" target="main"><b>국내여행</b></a></li>
-        <li><a href="../airline/airline.jsp" target="main"><b>항공</b></a></li>
-        <li><a href="../hotel/hotel.jsp" target="main"><b>호텔</b></a></li>
+        <li><a href="/course/oversea" target="main"><b>해외여행</b></a></li>
+        <li><a href="/course/domestic" target="main"><b>국내여행</b></a></li>
+        <li><a href="/course/airline" target="main"><b>항공</b></a></li>
+        <li><a href="/course/hotel" target="main"><b>호텔</b></a></li>
       </ul> 
     </div>
   </div>
-  <iframe src="./mainpage.jsp" width="100%" height="700px" frameborder="0" name="main"></iframe>
+  <iframe src="/" width="100%" height="700px" frameborder="0" name="main"></iframe>
 </body>
 </html>

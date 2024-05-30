@@ -20,7 +20,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <!-- PUT Carousel Image -->
-        <img src="airline_image/airplane_1 .jpg" class="d-block w-100" alt="...">
+        <img src="airline_image/airplane_1%20.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
         <!-- PUT Carousel Image -->
@@ -71,7 +71,7 @@
   <div class="row row-cols-1 row-cols-md-2 g-4" id="cardbox">
     <div class="col" id="card2">
       <div class="card">
-        <img src="./airline_image/hamad.jpg" class="card-img-top" alt="...">
+        <img src="airline_image/hamad.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">인천 출발</p>
           <h5 class="card-title">인천 ~ 하마드</h5>
@@ -82,7 +82,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card">
-        <img src="./airline_image/haneda.jpg" class="card-img-top" alt="...">
+        <img src="airline_image/haneda.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">김해 출발</p>
           <h5 class="card-title">김해 ~ 하네다</h5>
@@ -93,7 +93,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card">
-        <img src="./airline_image/changi.jpg" class="card-img-top" alt="...">
+        <img src="airline_image/changi.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">인천 출발</p>
           <h5 class="card-title">인천 ~ 창이</h5>
@@ -104,7 +104,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card">
-        <img src="./airline_image/paris.jpg" class="card-img-top" alt="...">
+        <img src="airline_image/paris.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">인천 출발</p>
           <h5 class="card-title">인천 ~ 샤를 드골</h5>
@@ -115,7 +115,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card">
-        <img src="./airline_image/IST.jpg" class="card-img-top" alt="...">
+        <img src="airline_image/IST.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">김해 출발</p>
           <h5 class="card-title">김해 ~ 이스탄불</h5>
@@ -126,7 +126,7 @@
       </div>
       <div class="col" id="card2">
       <div class="card">
-        <img src="./airline_image/pusan.jpg" class="card-img-top" alt="...">
+        <img src="airline_image/pusan.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">김포 출발</p>
           <h5 class="card-title">김포 ~ 김해</h5>

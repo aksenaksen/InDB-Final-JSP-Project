@@ -14,9 +14,30 @@ public class CourseController {
         return "course_list";
     }
 
-    @GetMapping("/{courseId}")
-    public String getCourse(@PathVariable Long courseId){
-        return "course";
+    @GetMapping("/oversea")
+    public String getOverSea() {
+        return "oversea";
     }
+
+    @GetMapping("/domestic")
+    public String getDomestic() {
+        return "domestic";
+    }
+
+    @GetMapping("/airline")
+    public String getAirline() {
+        return "airline";
+    }
+
+    @GetMapping("/hotel")
+    public String getHotel() {
+        return "hotel";
+    }
+
+    @GetMapping("/japan")
+    public String getJapan() {
+        return "japan";
+    }
+
 
 }

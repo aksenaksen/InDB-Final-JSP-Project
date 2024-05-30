@@ -32,13 +32,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./index_image/city.bmp" class="d-block w-100">
+            <img src="index_image/city.bmp" class="d-block w-100">
           </div>
           <div class="carousel-item">
-            <img src="../index/index_image/uk.jpg" class="d-block w-100">
+            <img src="index_image/uk.jpg" class="d-block w-100">
           </div>
           <div class="carousel-item">
-            <img src="../index/index_image/seoul.jpg" class="d-block w-100">
+            <img src=index_image/seoul.jpg" class="d-block w-100">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -57,7 +57,7 @@
       <div class="row row-cols-1 row-cols-md-2 g-4" id="cardbox">
         <div class="col" id="card2">
           <div class="card">
-            <img src="../index/index_image/japan.jpg" class="card-img-top" alt="...">
+            <img src="index_image/japan.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-cencept">인천 출발</p>
               <h5 class="card-title">인천 ~ 북해도</h5>
@@ -67,7 +67,7 @@
         </div>
         <div class="col" id="card2">
           <div class="card">
-            <img src="../index/index_image/bora.bmp" class="card-img-top" alt="...">
+            <img src="index_image/bora.bmp" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-cencept">보라보라 보라돌이</p>
               <h5 class="card-title">보라카이</h5>
@@ -77,7 +77,7 @@
         </div>
         <div class="col" id="card2">
           <div class="card">
-            <img src="../index/index_image/city.bmp" class="card-img-top" alt="...">
+            <img src="index_image/city.bmp" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-cencept">안전한 나라</p>
               <h5 class="card-title">싱가폴</h5>
@@ -87,7 +87,7 @@
         </div>
         <div class="col" id="card2">
           <div class="card">
-            <img src="../index/index_image/uk2.jpg" class="card-img-top" alt="...">
+            <img src="index_image/uk2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-cencept">신사의 나라</p>
               <h5 class="card-title">영국</h5>
@@ -97,7 +97,7 @@
         </div>
         <div class="col" id="card2">
           <div class="card">
-            <img src="../index/index_image/seoul.jpg" class="card-img-top" alt="...">
+            <img src="index_image/seoul.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-cencept">아이스크림이 맛있는</p>
               <h5 class="card-title">터키</h5>
@@ -107,7 +107,7 @@
           </div>
           <div class="col" id="card2">
           <div class="card">
-            <img src="../index/index_image/waikiki.jpg" class="card-img-top" alt="...">
+            <img src="index_image/waikiki.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-cencept">니가가라 하와이</p>
               <h5 class="card-title">하와이</h5>

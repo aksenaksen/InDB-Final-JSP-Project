@@ -59,7 +59,7 @@
   <h2 id="font">모두의 추천상품</h2>
   <div class="row row-cols-1 row-cols-md-4 g-4" id="cardbox">
     <div class="col" id="card2">
-      <a href="japan.jsp">
+      <a href="/course/japan">
         <div class="card">
           <img src="img/japan.jpg" class="card-img-top" alt="...">
           <div class="card-body">

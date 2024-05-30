@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>monkey trip</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="../hotel/hotel.css">
+    <link rel="stylesheet" href="hotel.css">
 
     <!-- 수량 -->
 <script>
@@ -58,13 +58,13 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../hotel/hotel_image/hotel_01.jpg" class="d-block w-100" alt="...">
+            <img src="hotel_image/hotel_01.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="../hotel/hotel_image/hotel_02.jpg" class="d-block w-100" alt="...">
+            <img src="hotel_image/hotel_02.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="../hotel/hotel_image/hotel_06.jpg" class="d-block w-100" alt="...">
+            <img src="hotel_image/hotel_06.jpg" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -142,7 +142,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4" id="cardbox">
         <div class="col" id="card2">
             <div class="card">
-                <img src="../hotel/hotel_image/hotel_07.jpg" class="card-img-top" alt="...">
+                <img src="hotel_image/hotel_07.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">몽키 플라자 리조트 괌</h5>
                     <p class="card-text">#3.5성급 #괌호텔 #추천호텔 </p>
@@ -151,7 +151,7 @@
         </div>
         <div class="col" id="card2">
             <div class="card">
-                <img src="../hotel/hotel_image/hotel_08.jpg" class="card-img-top" alt="...">
+                <img src="hotel_image/hotel_08.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">몽키 플라자 호텔 로마</h5>
                     <p class="card-text">#4성급 #로마호텔 #추천호텔</p>
@@ -160,7 +160,7 @@
         </div>
         <div class="col" id="card2">
             <div class="card">
-                <img src="../hotel/hotel_image/hotel_10.jpg" class="card-img-top" alt="...">
+                <img src="hotel_image/hotel_10.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">몽키 플라자 리조트 하와이</h5>
                     <p class="card-text">#3.5성급 #하와이 #와이키키리조트 #추천</p>
@@ -169,7 +169,7 @@
         </div>
         <div class="col" id="card2">
             <div class="card">
-                <img src="../hotel/hotel_image/hotel_09.jpg" class="card-img-top" alt="...">
+                <img src="hotel_image/hotel_09.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">몽키 플라자 호텔 그리스</h5>
                     <p class="card-text">#4성급 #산토리니호텔 #추천호텔</p>
@@ -178,7 +178,7 @@
         </div>
         <div class="col" id="card2">
             <div class="card">
-                <img src="../hotel/hotel_image/hotel_11.jpg" class="card-img-top" alt="...">
+                <img src="hotel_image/hotel_11.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">몽키 플라자 호텔 호주</h5>
                     <p class="card-text">#5성급 #시드니호텔 #추천호텔</p>
@@ -187,7 +187,7 @@
         </div>
         <div class="col" id="card2">
             <div class="card">
-                <img src="../hotel/hotel_image/hotel_12.jpg" class="card-img-top" alt="...">
+                <img src="hotel_image/hotel_12.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">몽키 플라자 호텔 영국</h5>
                     <p class="card-text">#4성급 #런던호텔 #추천호텔</p>

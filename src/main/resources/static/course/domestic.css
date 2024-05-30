@@ -148,8 +148,8 @@ form button{
   background-position: right bottom;
 }
 
-@media screen (min-width:425px) {
-  form{
-    width:370px auto;
-  }
-}
+/*@media screen (min-width:425px) {*/
+/*  form{*/
+/*    width:370px auto;*/
+/*  }*/
+/*}*/

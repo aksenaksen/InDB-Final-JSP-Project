@@ -19,13 +19,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./image/seoul1.jpg" class="d-block w-100" alt="...">
+          <img src="image/seoul1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./image/jeju1.jpg" class="d-block w-100" alt="...">
+          <img src="image/jeju1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./image/busan1.jpg" class="d-block w-100" alt="...">
+          <img src="image/busan1.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -63,7 +63,7 @@
   <div class="row row-cols-1 row-cols-md-4 g-4" id="cardbox">
     <div class="col" id="card2">
       <div class="card card2">
-        <img src="./image/seoul2.jpg" class="card-img-top" alt="...">
+        <img src="image/seoul2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">국내여행</p>
               <h5 class="card-title"><b>서울</b></h5>
@@ -74,7 +74,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card card2">
-        <img src="./image/busan2.jpg" class="card-img-top" alt="...">
+        <img src="image/busan2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">국내여행</p>
             <h5 class="card-title"><b>부산</b></h5>
@@ -85,7 +85,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card card2">
-        <img src="./image/jeju1.jpg" class="card-img-top" alt="...">
+        <img src="image/jeju1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">국내여행</p>
             <h5 class="card-title"><b>제주</b></h5>
@@ -96,7 +96,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card card2">
-        <img src="./image/dokdo1.jpg" class="card-img-top" alt="...">
+        <img src="image/dokdo1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">국내여행</p>
             <h5 class="card-title"><b>독도</b></h5>
@@ -107,7 +107,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card card2">
-        <img src="./image/gyeongju1.jpg" class="card-img-top" alt="...">
+        <img src="image/gyeongju1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">국내여행</p>
             <h5 class="card-title"><b>경주</b></h5>
@@ -118,7 +118,7 @@
     </div>
     <div class="col" id="card2">
       <div class="card card2">
-        <img src="./image/jeonju1.jpg" class="card-img-top" alt="...">
+        <img src="image/jeonju1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-cencept">국내여행</p>
             <h5 class="card-title"><b>전주</b></h5>`
