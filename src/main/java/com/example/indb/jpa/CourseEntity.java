@@ -1,26 +1,29 @@
 package com.example.indb.jpa;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Date;
 
 @Entity
 @Data
-@Table(name = "course")
+@Table(name = "COURSE")
 public class CourseEntity {
 
     @Id
+    @Column(name = "course_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    @Column(name = "title",nullable = false)
+    @Column(name = "title",nullable = false,unique = true)
     String title;
-    @Column(name = "course",nullable = false)
-    String course;
-    @Column(name = "created_at",nullable = false)
-    Date createdAt;
+    @Column(name = "name",nullable = false,unique = true)
+    String name;
+    @Column(name = "notice",nullable = false)
+    String notice;
+
+    @ManyToOne
+    @JoinColumn(name = "country_id")
+    private CountryEntity country;
 
 
 }
