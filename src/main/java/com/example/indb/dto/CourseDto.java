@@ -9,6 +9,7 @@ import java.util.Date;
 public class CourseDto {
 
     Long id;
+    String cityCode;
     String title;
     String name;
     String notice;

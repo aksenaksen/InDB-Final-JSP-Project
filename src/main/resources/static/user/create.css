@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-/* 'Black Han Sans' 글꼴을 구글 폰트에서 불러옵니다. */
+/* 'Black Han Sans' 湲�瑗댁쓣 援ш� �룿�듃�뿉�꽌 遺덈윭�샃�땲�떎. */
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
-/* 'Black Han Sans' 및 'Noto Sans KR' 글꼴을 구글 폰트에서 불러옵니다. */
+/* 'Black Han Sans' 諛� 'Noto Sans KR' 湲�瑗댁쓣 援ш� �룿�듃�뿉�꽌 遺덈윭�샃�땲�떎. */
 
 *{
-  font-family: 'Black Han Sans', sans-serif;
-  /* 모든 요소에 'Black Han Sans' 글꼴을 적용합니다. */
-  font-family: 'Noto Sans KR', sans-serif;
-  /* 모든 요소에 'Noto Sans KR' 글꼴을 추가로 적용합니다. */
+    font-family: 'Black Han Sans', sans-serif;
+    /* 紐⑤뱺 �슂�냼�뿉 'Black Han Sans' 湲�瑗댁쓣 �쟻�슜�빀�땲�떎. */
+    font-family: 'Noto Sans KR', sans-serif;
+    /* 紐⑤뱺 �슂�냼�뿉 'Noto Sans KR' 湲�瑗댁쓣 異붽�濡� �쟻�슜�빀�땲�떎. */
 }
 * {
     margin: 0;
@@ -18,8 +18,12 @@
 #ageOutput{
     font-size: xx-large;
 }
+h1 {
+    text-align: center;
+    margin : 30px;
+}
 body {
-    background: #ccc;
+
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -61,18 +65,18 @@ label {
     display: block;
 }
 
-/* 태블릿? 용 */
+/* �깭釉붾┸? �슜 */
 @media (min-width: 600px) and (max-width: 992px) {
     body {
         padding: 100px;
-    
+
     }
     form {
         max-width: 800px;
     }
 }
 
-/* 모바일용 */
+/* 紐⑤컮�씪�슜 */
 @media (max-width: 599px) {
     body {
         font-size: smaller;
@@ -83,7 +87,7 @@ label {
     }
     input[type=text], input[type=email], input[type=password], button {
         padding: 15px;
-        
+
         height: 40px;
     }
 }

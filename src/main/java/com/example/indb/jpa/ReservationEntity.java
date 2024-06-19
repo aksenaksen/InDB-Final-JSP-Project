@@ -3,28 +3,33 @@ package com.example.indb.jpa;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
 @Data
-@Table(name = "reservation")
+@Table(name = "RESERVATIONS_1")
 public class ReservationEntity {
+
     @Id
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    @Column(name = "username", unique = true, nullable = false)
-    String username;
+    @Column(name = "check_out_date",nullable = false)
+    LocalDate checkOutDate;
 
-    @Column(name = "review", unique = true, nullable = false)
-    float review;
+    @Column(name = "check_in_date",nullable = false)
+    LocalDate checkInDate;
 
-    @Column(name = "user_id", unique = true, nullable = false)
-    Long userId;
+    @Column(name = "hotelId")
+    String hotelId;
 
-    @Column(name = "course_id", unique = true, nullable = false)
-    Long courseId;
+    @ManyToOne
+    @JoinColumn(name = "course_id")
+    private CourseEntity course;
 
-    @Column(name = "created_at", nullable = false)
-    Date createdAt;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private UserEntity user;
 }

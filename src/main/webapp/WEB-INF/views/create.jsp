@@ -16,7 +16,10 @@
 </script>
 <% } %>
 
+
 <body>
+<h1><img src="../index_image/monkey_logo.jpg" alt=""><br></a>MONKEY TOUR</h1>
+<br>
 <form action="<%= request.getContextPath() %>/user/create" method="post">
     <fieldset>
         <legend>회원가입 정보</legend>

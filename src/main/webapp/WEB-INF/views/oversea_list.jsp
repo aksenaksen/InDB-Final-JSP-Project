@@ -9,6 +9,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="oversea.css">
   <title>Document</title>
+
+  <% if (request.getAttribute("errorMessage") != null) { %>
+  <script>
+    alert("<%= request.getAttribute("errorMessage") %>");
+    console.log("<%= request.getAttribute("errorMessage") %>");
+  </script>
+  <% } %>
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -38,25 +45,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<div class="reservation">
-  <input type="text" list="start" placeholder="출발지" size="12">
-  <datalist id="start">
-    <option value="인천">Incheon</option>
-    <option value="대구">Daegu</option>
-    <option value="김해">Kimhae</option>
-    <option value="제주">Jeju</option>
-  </datalist>
-  <input type="text" list="destination" placeholder="도착지" size="12">
-  <datalist id='destination'>
-    <option value="미국">US</option>
-    <option value="일본">Japan</option>
-    <option value="중국">China</option>
-    <option value="베트남">Vet</option>
-  </datalist>
-  <div>출발일<input type="date" name="" id=""></div>
-  <div>도착일<input type="date" name="" id=""></div>
-  <button type="submit">검색하기</button>
-</div>
+
 <h2 id="font">모두의 추천상품</h2>
 <div class="row row-cols-1 row-cols-md-4 g-4" id="cardbox">
   <c:forEach var="country" items="${countryList}">
@@ -67,7 +56,6 @@
           <div class="card-body">
             <p class="card-concept">${country.courseType == 'DOMESTIC' ? '국내여행' : '해외여행'}</p>
             <h5 class="card-title"><b>${country.name}</b></h5>
-            <p class="card-price"><b>100000원~</b></p>
           </div>
         </div>
       </a>

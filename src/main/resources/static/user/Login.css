@@ -1,45 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-/* 'Black Han Sans' 글꼴을 구글 폰트에서 불러옵니다. */
+/* 'Black Han Sans' 湲�瑗댁쓣 援ш� �룿�듃�뿉�꽌 遺덈윭�샃�땲�떎. */
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
-/* 'Black Han Sans' 및 'Noto Sans KR' 글꼴을 구글 폰트에서 불러옵니다. */
+/* 'Black Han Sans' 諛� 'Noto Sans KR' 湲�瑗댁쓣 援ш� �룿�듃�뿉�꽌 遺덈윭�샃�땲�떎. */
 
 * {
     font-family: 'Black Han Sans', sans-serif;
-    /* 모든 요소에 'Black Han Sans' 글꼴을 적용합니다. */
+    /* 紐⑤뱺 �슂�냼�뿉 'Black Han Sans' 湲�瑗댁쓣 �쟻�슜�빀�땲�떎. */
     font-family: 'Noto Sans KR', sans-serif;
-    /* 모든 요소에 'Noto Sans KR' 글꼴을 추가로 적용합니다. */
+    /* 紐⑤뱺 �슂�냼�뿉 'Noto Sans KR' 湲�瑗댁쓣 異붽�濡� �쟻�슜�빀�땲�떎. */
 }
 
 #id {
     margin-bottom: 10px;
 }
 
-form {
-    margin: 10% auto;
+/* ../cssfile/user/Login.css */
+h1 {
     text-align: center;
-    border: 1px solid black;
-    width: 500px;
-    height: auto;
-    background-color: whitesmoke;
-    padding-bottom: 10px;
-    border-radius: 5px;
+    margin : 30px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
 }
 
-.input_box {
-    width: 200px;
+form {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    list-style: none;
+    margin-bottom: 15px;
 }
 
-body {
-    background: #ccc;
-    padding: 20px;
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-/* 태블릿? 용 */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Adjusting width for padding and border */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* �깭釉붾┸? �슜 */
 @media (min-width: 600px) and (max-width: 992px) {
     body {
         padding: 40px;
@@ -50,7 +92,7 @@ body {
     }
 }
 
-/* 모바일용 */
+/* 紐⑤컮�씪�슜 */
 @media (max-width: 599px) {
     body {
         padding: 5px;
@@ -64,7 +106,7 @@ body {
     }
     input{
         margin-right: 30px;
-    } 
+    }
 
     input[type=text],
     input[type=password],

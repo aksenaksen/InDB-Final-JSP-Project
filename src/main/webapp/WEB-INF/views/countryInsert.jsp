@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="/user/create.css">
     <title>Country Entity Form</title>
 </head>
 <body>

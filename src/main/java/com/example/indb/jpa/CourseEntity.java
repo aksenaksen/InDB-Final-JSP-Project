@@ -20,6 +20,8 @@ public class CourseEntity {
     String name;
     @Column(name = "notice",nullable = false)
     String notice;
+    @Column(name = "city_code")
+    String cityCode;
 
     @ManyToOne
     @JoinColumn(name = "country_id")

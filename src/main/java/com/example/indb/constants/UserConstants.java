@@ -11,4 +11,8 @@ public class UserConstants {
 
     public static final String PASSWORD_NULL = "비밀번호를 입력해주세요";
 
+    public static final String INVALID_CITYCODE ="지역코드 불일치 올바른 지역코드를 다시 입력해주세요";
+
+    public static final String NOT_ALLOWED_DATE ="허용되지 않는 날짜입니다. 날짜를 다시 확인해주세요";
+
 }

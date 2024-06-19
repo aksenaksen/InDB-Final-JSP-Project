@@ -15,4 +15,12 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping("/error")
+    public String Error(){
+        return "error";
+    }
+    @GetMapping("/error/404")
+    public String notFoundError(){
+        return "404";
+    }
 }

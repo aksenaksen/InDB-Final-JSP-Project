@@ -11,9 +11,7 @@ import java.util.Objects;
 @Service
 @Slf4j
 public class FileService {
-
     private final String FILE_DIR = "C:\\Users\\Woong\\Desktop\\indb\\src\\main\\resources\\static\\course\\";
-
     public void saveFile(MultipartFile files, String dir, String fileName) throws IOException {
 
         String origName = files.getOriginalFilename();

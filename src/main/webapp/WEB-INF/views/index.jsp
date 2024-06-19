@@ -22,19 +22,26 @@
       <input type="text">
       <button>검색</button>
     </div>
+    <%
+      String user = (String) session.getAttribute("user");
+      if (user != null) {
+    %>
+    <div class="login_join">
+      <a href="/reservation/myReservation"><button>내 예약</button></a>
+      <a href="/user/logout"><button>로그아웃</button></a>
+    </div>
+    <% } else { %>
     <div class="login_join">
       <a href="/user/login"><button>로그인</button></a>
       <a href="/user/create"><button>회원가입</button></a>
     </div>
+    <% } %>
     <div class="container" id="linkpage_1">
       <ul>
-        <li><a href="/course/oversea" target="main"><b>해외여행</b></a></li>
-        <li><a href="/course/domestic" target="main"><b>국내여행</b></a></li>
-        <li><a href="/course/airline" target="main"><b>항공</b></a></li>
-        <li><a href="/course/hotel" target="main"><b>호텔</b></a></li>
-      </ul> 
+        <li><a href="/course/list_oversea" target="main"><b>여행</b></a></li>
+      </ul>
     </div>
   </div>
-  <iframe src="/" width="100%" height="700px" frameborder="0" name="main"></iframe>
+  <iframe src="/course/list_oversea" width="100%" height="700px" frameborder="0" name="main"></iframe>
 </body>
 </html>

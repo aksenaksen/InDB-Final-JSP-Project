@@ -10,8 +10,18 @@
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../${countryDto.title}.css">
+
+    <script>
+
+        function appendCourseId(courseId){
+            const currentUrl = window.location.href;
+            return currentUrl+"/" + courseId;
+        }
+    </script>
 </head>
 <body>
+
+
     <div class="container mt-4">
         <section id="introduction" class="mb-4">
             <h2>${countryDto.name} 소개</h2>
@@ -30,7 +40,8 @@
                             <div class="card-body">
                                 <h5 class="card-title">${course.name} 코스</h5>
                                 <p class="card-text">${course.notice}</p>
-                                <a href="#" class="btn btn-primary">예약하기</a>
+                                <a href="${countryDto.id}/${course.id}" class="btn btn-primary">예약하기</a>
+                                <a href="/course/${course.id}/review" class="btn btn-primary">리뷰보기</a>
                             </div>
                         </div>
                     </div>

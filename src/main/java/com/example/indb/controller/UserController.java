@@ -4,6 +4,8 @@ import com.example.indb.dto.UserDto;
 import com.example.indb.service.UserService;
 import com.example.indb.vo.RequestLogin;
 import com.example.indb.vo.RequestUser;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -47,11 +49,20 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public String postLogin(@Valid RequestLogin requestLogin){
+    public String postLogin(@Valid RequestLogin requestLogin, HttpServletRequest request){
 
         UserDto userDto = userService.login(requestLogin);
         log.info(String.valueOf(userDto) + "is login now");
-        return "redirect:/";
+        request.getSession().setAttribute("user",userDto.getUserId());
+
+        return "redirect:/index";
+    }
+    @GetMapping("/logout")
+    public String postLogout(HttpServletRequest request){
+
+
+        request.getSession().setAttribute("user",null);
+        return "redirect:/index";
     }
 
 //    내정보

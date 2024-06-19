@@ -8,4 +8,6 @@ public class RequestCourse {
     private String title;
     private String name;
     private String notice;
+    private String cityCode;
+
 }
